@@ -1,6 +1,6 @@
 import { expect } from 'chai'
 
-import starWars from './index'
+import * as starWars from './index'
 
 describe('starwars-names', () => {
   describe('all', () => {
