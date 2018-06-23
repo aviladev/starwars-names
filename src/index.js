@@ -7,5 +7,5 @@ const getRandomItem = uniqueRandomArray(starWarsNames)
 export let random = number => !number
   ? getRandomItem()
   : Array(number)
-     .fill()
-     .map(getRandomItem)
+    .fill()
+    .map(getRandomItem)
